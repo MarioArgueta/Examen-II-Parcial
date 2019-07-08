@@ -43,6 +43,6 @@
         <TextBox Name="txtCreacion" Grid.Row="2" Grid.Column="4" Margin="10"/>
         <TextBox Name="txtConexion" Grid.Row="3" Grid.Column="4" Margin="10"/>
         <TextBox Name="txtTipoUsuario" Grid.Row="4" Grid.Column="4" Margin="10"/>
-        <ComboBox Name="cbxEstado" Grid.Column="4" Grid.Row="5" Margin="15"/>
+        <ComboBox Name="cbxEstado" Grid.Column="4" Grid.Row="5" Margin="10"/>
     </Grid>
 </Window>
