@@ -5,8 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Examen_Mario_Argueta"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Usuario" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="DATOS DELUSUARIO" FontSize="30" Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.ColumnSpan="4"/>
+        <TextBlock Text="id Usuario:" Grid.Column="0" Grid.Row="1" FontSize="20" VerticalAlignment="Center" Margin="16"/>
+        <TextBlock Text="Nombre:" Grid.Column="0" Grid.Row="2" FontSize="20" VerticalAlignment="Center" Margin="16"/>
+        <TextBlock Text="Apellido:" Grid.Column="0" Grid.Row="3" FontSize="20" VerticalAlignment="Center" Margin="16"/>
+        <TextBlock Text="Nombre Usuario:" Grid.Column="0" Grid.Row="4" FontSize="20" VerticalAlignment="Center" Margin="16"/>
+        <TextBlock Text="Contraseña:" Grid.Column="0" Grid.Row="5" FontSize="20" VerticalAlignment="Center" Margin="16"/>
+        <TextBlock Text="Correo Electronico:" Grid.Column="2" Grid.Row="1" FontSize="20" VerticalAlignment="Center" Margin="16"/>
+        <TextBlock Text="Fecha de Creacion:" Grid.Column="2" Grid.Row="2" FontSize="20" VerticalAlignment="Center" Margin="16"/>
+        <TextBlock Text="Ultima Conexion:" Grid.Column="2" Grid.Row="3" FontSize="20" VerticalAlignment="Center" Margin="16"/>
+        <TextBlock Text="Tipo de Usuario:" Grid.Column="2" Grid.Row="4" FontSize="20" VerticalAlignment="Center" Margin="16"/>
+        <TextBlock Text="Estado:" Grid.Column="2" Grid.Row="5" FontSize="20" VerticalAlignment="Center" Margin="16"/>
+        <TextBox Name="txtidUsuario" Grid.Row="1" Grid.Column="1" Margin="10"/>
+        <TextBox Name="txtNombre" Grid.Row="2" Grid.Column="1" Margin="10"/>
+        <TextBox Name="txtApellido" Grid.Row="3" Grid.Column="1" Margin="10"/>
+        <TextBox Name="txtNonUsuario" Grid.Row="4" Grid.Column="1" Margin="10"/>
+        <TextBox Name="txtContrasenia" Grid.Row="5" Grid.Column="1" Margin="10"/>
+        <TextBox Name="txtCorreo" Grid.Row="1" Grid.Column="4" Margin="10"/>
+        <TextBox Name="txtCreacion" Grid.Row="2" Grid.Column="4" Margin="10"/>
+        <TextBox Name="txtConexion" Grid.Row="3" Grid.Column="4" Margin="10"/>
+        <TextBox Name="txtTipoUsuario" Grid.Row="4" Grid.Column="4" Margin="10"/>
+        <ComboBox Name="cbxEstado" Grid.Column="4" Grid.Row="5" Margin="10"/>
     </Grid>
 </Window>
